@@ -1,5 +1,5 @@
 from datetime import datetime
-from BattleVerse.db import users_col  # Assuming you have a database module
+from BatlleVerse.db import users_col  # Assuming you have a database module
 import random
 
 # Helper Functions for User Management
