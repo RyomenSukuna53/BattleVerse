@@ -1,6 +1,6 @@
 import os
 from pyrogram import Client
-from BattleVerse import bot
+from BatlleVerse import bot
 
 # Main Program
 if __name__ == "__main__":
