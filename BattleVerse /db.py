@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # MongoDB connection setup
-MONGO_URI = "mongodb+srv://sufyan532011:<db_password>@cluster0.pp20r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
+MONGO_URI = "mongodb+srv://sufyan532011:2011@cluster0.rhff7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
 mongo_client = MongoClient(MONGO_URI)
 db = mongo_client["Testing"]
 users_col = db["users"]
@@ -14,4 +14,4 @@ try:
     client.server_info()  # This will raise an error if the connection fails
     print("Connected to MongoDB successfully!")
 except Exception as e:
-    print(f"Error connecting to
+    print(f"Error connecting to MongoDB: {e}")
