@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
 from pyrogram.enums import ChatType
 from datetime import datetime
-from Batlleverse import bot
-from Batlleverse.db import users_col
-from Batlleverse.Modules.characters import character_data  # Import character data
+from BattleVerse import bot
+from BattleVerse.db import users_col
+from BattleVerse.Modules.characters import character_data  # Import character data
 
 # Predefined characters
 fixed_characters = [
