@@ -2,8 +2,8 @@ from datetime import datetime
 from pyrogram import Client, filters
 from pyrogram.types import Message, ChatMemberUpdated
 import logging
-from FB.db import group_col  # Assuming you have a collection for groups in your database
-from FB import bot 
+from BattleVerse.db import group_col  # Assuming you have a collection for groups in your database
+from BattleVerse import bot 
 
 
 # Configure logging
